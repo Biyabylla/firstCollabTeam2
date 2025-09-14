@@ -15,6 +15,7 @@ public class Angga extends javax.swing.JFrame {
      */
     public Angga() {
         initComponents();
+        setLocationRelativeTo(null); // Biar window muncul di tengah
     }
 
     /**
@@ -26,27 +27,420 @@ public class Angga extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        panel_dasar = new javax.swing.JPanel();
+        panel_QRGithub = new javax.swing.JPanel();
+        label_QRGithub = new javax.swing.JLabel();
+        label_fotoku = new javax.swing.JLabel();
+        panel_Atas = new javax.swing.JPanel();
+        label_Profile = new javax.swing.JLabel();
+        label_LogoITM = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        label_IsianProdi = new javax.swing.JLabel();
+        label_IsianAlamat = new javax.swing.JLabel();
+        label_IsianNIM = new javax.swing.JLabel();
+        label_IsianNama = new javax.swing.JLabel();
+        label_IsianSemester = new javax.swing.JLabel();
+        label_IsianAngkatan = new javax.swing.JLabel();
+        label_IsianKelompok = new javax.swing.JLabel();
+        label_Nama = new javax.swing.JLabel();
+        label_NIM = new javax.swing.JLabel();
+        label_Alamat = new javax.swing.JLabel();
+        label_Prodi = new javax.swing.JLabel();
+        label_Semester = new javax.swing.JLabel();
+        label_Angkatan = new javax.swing.JLabel();
+        label_Kelompok = new javax.swing.JLabel();
+        panel_Github = new javax.swing.JPanel();
+        label_LinkGithub = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        panel_katakata = new javax.swing.JPanel();
+        label_IsiKatakata = new javax.swing.JLabel();
+        label_tandapetik = new javax.swing.JLabel();
+        label_IsiKatakata1 = new javax.swing.JLabel();
+        panel_quote1 = new javax.swing.JPanel();
+        label_quote1 = new javax.swing.JLabel();
+        jPanel13 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Angga Sanjaya");
+        panel_dasar.setBackground(new java.awt.Color(188, 188, 188));
+        panel_dasar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panel_QRGithub.setBackground(new java.awt.Color(255, 255, 255));
+
+        label_QRGithub.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/gihub 100x100.png"))); // NOI18N
+
+        javax.swing.GroupLayout panel_QRGithubLayout = new javax.swing.GroupLayout(panel_QRGithub);
+        panel_QRGithub.setLayout(panel_QRGithubLayout);
+        panel_QRGithubLayout.setHorizontalGroup(
+            panel_QRGithubLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_QRGithubLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(label_QRGithub))
+        );
+        panel_QRGithubLayout.setVerticalGroup(
+            panel_QRGithubLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_QRGithubLayout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
+                .addComponent(label_QRGithub)
+                .addContainerGap())
+        );
+
+        panel_dasar.add(panel_QRGithub, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 240, 100, 120));
+
+        label_fotoku.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/Adobe Express - file.jpg"))); // NOI18N
+        label_fotoku.setText("jLabel1");
+        label_fotoku.setMaximumSize(new java.awt.Dimension(3040, 3000));
+        label_fotoku.setMinimumSize(new java.awt.Dimension(3040, 3000));
+        label_fotoku.setPreferredSize(new java.awt.Dimension(3040, 3000));
+        panel_dasar.add(label_fotoku, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, 260, 400));
+
+        panel_Atas.setBackground(new java.awt.Color(255, 255, 255));
+        panel_Atas.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        label_Profile.setBackground(new java.awt.Color(255, 255, 255));
+        label_Profile.setFont(new java.awt.Font("Verdana", 1, 30)); // NOI18N
+        label_Profile.setForeground(new java.awt.Color(37, 169, 223));
+        label_Profile.setText("BIODATA");
+        panel_Atas.add(label_Profile, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 170, -1));
+
+        label_LogoITM.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/logo itm landscape.png"))); // NOI18N
+        label_LogoITM.setText("jLabel21");
+        panel_Atas.add(label_LogoITM, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 78, 30));
+
+        panel_dasar.add(panel_Atas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 370, 40));
+
+        jPanel1.setBackground(new java.awt.Color(37, 169, 223));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 190, Short.MAX_VALUE)
+        );
+
+        panel_dasar.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 110, 10, 190));
+
+        jPanel2.setBackground(new java.awt.Color(37, 169, 223));
+
+        label_IsianProdi.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianProdi.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianProdi.setText(": Sistem Informasi");
+
+        label_IsianAlamat.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianAlamat.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianAlamat.setText(": Jawa Tengah");
+
+        label_IsianNIM.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianNIM.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianNIM.setText(": 2024 57201 012");
+
+        label_IsianNama.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianNama.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianNama.setText(": Angga Sanjaya");
+
+        label_IsianSemester.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianSemester.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianSemester.setText(": 3");
+
+        label_IsianAngkatan.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianAngkatan.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianAngkatan.setText(": 2024");
+
+        label_IsianKelompok.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_IsianKelompok.setForeground(new java.awt.Color(255, 255, 255));
+        label_IsianKelompok.setText(": II");
+
+        label_Nama.setBackground(new java.awt.Color(0, 153, 204));
+        label_Nama.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_Nama.setForeground(new java.awt.Color(255, 255, 255));
+        label_Nama.setText("Nama");
+
+        label_NIM.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_NIM.setForeground(new java.awt.Color(255, 255, 255));
+        label_NIM.setText("NIM");
+
+        label_Alamat.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_Alamat.setForeground(new java.awt.Color(255, 255, 255));
+        label_Alamat.setText("Alamat");
+
+        label_Prodi.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_Prodi.setForeground(new java.awt.Color(255, 255, 255));
+        label_Prodi.setText("Program Studi");
+
+        label_Semester.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_Semester.setForeground(new java.awt.Color(255, 255, 255));
+        label_Semester.setText("Semester");
+
+        label_Angkatan.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_Angkatan.setForeground(new java.awt.Color(255, 255, 255));
+        label_Angkatan.setText("Angkatan");
+
+        label_Kelompok.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_Kelompok.setForeground(new java.awt.Color(255, 255, 255));
+        label_Kelompok.setText("Kelompok");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(label_NIM)
+                    .addComponent(label_Semester)
+                    .addComponent(label_Prodi)
+                    .addComponent(label_Alamat)
+                    .addComponent(label_Nama)
+                    .addComponent(label_Angkatan)
+                    .addComponent(label_Kelompok))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(label_IsianAlamat)
+                    .addComponent(label_IsianNIM)
+                    .addComponent(label_IsianNama)
+                    .addComponent(label_IsianProdi)
+                    .addComponent(label_IsianSemester)
+                    .addComponent(label_IsianAngkatan)
+                    .addComponent(label_IsianKelompok))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_Nama)
+                    .addComponent(label_IsianNama))
+                .addGap(5, 5, 5)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_NIM)
+                    .addComponent(label_IsianNIM))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_Alamat)
+                    .addComponent(label_IsianAlamat))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_Prodi)
+                    .addComponent(label_IsianProdi))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_Semester)
+                    .addComponent(label_IsianSemester))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(label_IsianAngkatan)
+                    .addComponent(label_Angkatan, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_Kelompok)
+                    .addComponent(label_IsianKelompok))
+                .addContainerGap())
+        );
+
+        panel_dasar.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 250, 160));
+
+        panel_Github.setBackground(new java.awt.Color(37, 169, 223));
+
+        label_LinkGithub.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        label_LinkGithub.setForeground(new java.awt.Color(255, 255, 255));
+        label_LinkGithub.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/icons8-github-logo-20X20.png"))); // NOI18N
+        label_LinkGithub.setText("https://github.com/angga-sanjaya");
+
+        javax.swing.GroupLayout panel_GithubLayout = new javax.swing.GroupLayout(panel_Github);
+        panel_Github.setLayout(panel_GithubLayout);
+        panel_GithubLayout.setHorizontalGroup(
+            panel_GithubLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel_GithubLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(label_LinkGithub)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panel_GithubLayout.setVerticalGroup(
+            panel_GithubLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_GithubLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(label_LinkGithub))
+        );
+
+        panel_dasar.add(panel_Github, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, 220, 20));
+
+        jPanel9.setBackground(new java.awt.Color(37, 169, 223));
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 180, Short.MAX_VALUE)
+        );
+
+        panel_dasar.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 10, 180));
+
+        jPanel10.setBackground(new java.awt.Color(37, 169, 223));
+        jPanel10.setAlignmentX(0.2F);
+        jPanel10.setAlignmentY(0.2F);
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panel_dasar.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 370, 10));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(37, 169, 223));
+        jLabel1.setText(".");
+        panel_dasar.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, 10, 40));
+
+        jPanel11.setBackground(new java.awt.Color(37, 169, 223));
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 120, Short.MAX_VALUE)
+        );
+
+        panel_dasar.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, -1, 120));
+
+        jPanel12.setBackground(new java.awt.Color(37, 169, 223));
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 50, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+
+        panel_dasar.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, 50, 10));
+
+        panel_katakata.setBackground(new java.awt.Color(255, 255, 255));
+
+        label_IsiKatakata.setFont(new java.awt.Font("Verdana", 3, 12)); // NOI18N
+        label_IsiKatakata.setForeground(new java.awt.Color(37, 169, 223));
+        label_IsiKatakata.setText("Iso ora iso,");
+
+        label_tandapetik.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        label_tandapetik.setForeground(new java.awt.Color(37, 169, 223));
+        label_tandapetik.setText("\"");
+
+        label_IsiKatakata1.setFont(new java.awt.Font("Verdana", 3, 14)); // NOI18N
+        label_IsiKatakata1.setForeground(new java.awt.Color(37, 169, 223));
+        label_IsiKatakata1.setText("macak o iso");
+
+        javax.swing.GroupLayout panel_katakataLayout = new javax.swing.GroupLayout(panel_katakata);
+        panel_katakata.setLayout(panel_katakataLayout);
+        panel_katakataLayout.setHorizontalGroup(
+            panel_katakataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel_katakataLayout.createSequentialGroup()
+                .addGroup(panel_katakataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panel_katakataLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(label_tandapetik)
+                        .addGap(0, 0, 0)
+                        .addComponent(label_IsiKatakata)
+                        .addGap(0, 30, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_katakataLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(label_IsiKatakata1)))
+                .addContainerGap())
+        );
+        panel_katakataLayout.setVerticalGroup(
+            panel_katakataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_katakataLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panel_katakataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_tandapetik, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(label_IsiKatakata))
+                .addGap(0, 0, 0)
+                .addComponent(label_IsiKatakata1)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        panel_dasar.add(panel_katakata, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 130, 50));
+
+        panel_quote1.setBackground(new java.awt.Color(255, 255, 255));
+
+        label_quote1.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        label_quote1.setForeground(new java.awt.Color(37, 169, 223));
+        label_quote1.setText("Quote");
+
+        javax.swing.GroupLayout panel_quote1Layout = new javax.swing.GroupLayout(panel_quote1);
+        panel_quote1.setLayout(panel_quote1Layout);
+        panel_quote1Layout.setHorizontalGroup(
+            panel_quote1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_quote1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(label_quote1)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panel_quote1Layout.setVerticalGroup(
+            panel_quote1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panel_quote1Layout.createSequentialGroup()
+                .addComponent(label_quote1)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        panel_dasar.add(panel_quote1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, 50, 20));
+
+        jPanel13.setBackground(new java.awt.Color(37, 169, 223));
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 60, Short.MAX_VALUE)
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+
+        panel_dasar.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 60, 10));
+
+        jPanel14.setBackground(new java.awt.Color(37, 169, 223));
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 10, Short.MAX_VALUE)
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 50, Short.MAX_VALUE)
+        );
+
+        panel_dasar.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 310, -1, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(163, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(159, 159, 159))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(panel_dasar, javax.swing.GroupLayout.PREFERRED_SIZE, 624, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(124, 124, 124)
-                .addComponent(jLabel1)
-                .addContainerGap(160, Short.MAX_VALUE))
+            .addComponent(panel_dasar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -89,5 +483,42 @@ public class Angga extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JLabel label_Alamat;
+    private javax.swing.JLabel label_Angkatan;
+    private javax.swing.JLabel label_IsiKatakata;
+    private javax.swing.JLabel label_IsiKatakata1;
+    private javax.swing.JLabel label_IsianAlamat;
+    private javax.swing.JLabel label_IsianAngkatan;
+    private javax.swing.JLabel label_IsianKelompok;
+    private javax.swing.JLabel label_IsianNIM;
+    private javax.swing.JLabel label_IsianNama;
+    private javax.swing.JLabel label_IsianProdi;
+    private javax.swing.JLabel label_IsianSemester;
+    private javax.swing.JLabel label_Kelompok;
+    private javax.swing.JLabel label_LinkGithub;
+    private javax.swing.JLabel label_LogoITM;
+    private javax.swing.JLabel label_NIM;
+    private javax.swing.JLabel label_Nama;
+    private javax.swing.JLabel label_Prodi;
+    private javax.swing.JLabel label_Profile;
+    private javax.swing.JLabel label_QRGithub;
+    private javax.swing.JLabel label_Semester;
+    private javax.swing.JLabel label_fotoku;
+    private javax.swing.JLabel label_quote1;
+    private javax.swing.JLabel label_tandapetik;
+    private javax.swing.JPanel panel_Atas;
+    private javax.swing.JPanel panel_Github;
+    private javax.swing.JPanel panel_QRGithub;
+    private javax.swing.JPanel panel_dasar;
+    private javax.swing.JPanel panel_katakata;
+    private javax.swing.JPanel panel_quote1;
     // End of variables declaration//GEN-END:variables
 }
