@@ -75,10 +75,10 @@ public class Nabila extends javax.swing.JFrame {
         jPanel1.add(lNama);
         lNama.setBounds(16, 70, 220, 17);
 
-        lIdentitasDiri.setFont(new java.awt.Font("Lucida Bright", 1, 18)); // NOI18N
+        lIdentitasDiri.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
         lIdentitasDiri.setText("IDENTITAS DIRI");
         jPanel1.add(lIdentitasDiri);
-        lIdentitasDiri.setBounds(185, 20, 150, 22);
+        lIdentitasDiri.setBounds(185, 20, 170, 26);
 
         lAlamat.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
         lAlamat.setText("Alamat :    Sukorejo, Loceret, Nganjuk");
