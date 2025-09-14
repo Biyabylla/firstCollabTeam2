@@ -29,14 +29,15 @@ public class Nabila extends javax.swing.JFrame {
         jInternalFrame1 = new javax.swing.JInternalFrame();
         jPanel1 = new javax.swing.JPanel();
         lFoto = new javax.swing.JLabel();
+        lNIM = new javax.swing.JLabel();
         lNama = new javax.swing.JLabel();
-        lNama1 = new javax.swing.JLabel();
-        lNama2 = new javax.swing.JLabel();
-        lNama3 = new javax.swing.JLabel();
-        lNama4 = new javax.swing.JLabel();
-        lNama5 = new javax.swing.JLabel();
-        lNama6 = new javax.swing.JLabel();
-        lNama7 = new javax.swing.JLabel();
+        lIdentitasDiri = new javax.swing.JLabel();
+        lAlamat = new javax.swing.JLabel();
+        lLinkGithub = new javax.swing.JLabel();
+        lProdi = new javax.swing.JLabel();
+        lKel = new javax.swing.JLabel();
+        lAngkatan = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         jInternalFrame1.setVisible(true);
 
@@ -52,101 +53,64 @@ public class Nabila extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setLayout(null);
 
         lFoto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lFoto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/Nabila.png"))); // NOI18N
         lFoto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lFoto.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        jPanel1.add(lFoto);
+        lFoto.setBounds(320, 70, 160, 194);
+
+        lNIM.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
+        lNIM.setText("NIM      :    202457201055");
+        jPanel1.add(lNIM);
+        lNIM.setBounds(16, 99, 212, 17);
 
         lNama.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama.setText("NIM      :    202457201055");
+        lNama.setText("Nama   :    Nabila Putri Ardina");
+        jPanel1.add(lNama);
+        lNama.setBounds(16, 70, 220, 17);
 
-        lNama1.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama1.setText("Nama   :    Nabila Putri Ardina");
+        lIdentitasDiri.setFont(new java.awt.Font("Lucida Bright", 1, 18)); // NOI18N
+        lIdentitasDiri.setText("IDENTITAS DIRI");
+        jPanel1.add(lIdentitasDiri);
+        lIdentitasDiri.setBounds(185, 20, 150, 22);
 
-        lNama2.setFont(new java.awt.Font("Lucida Bright", 1, 18)); // NOI18N
-        lNama2.setText("IDENTITAS DIRI");
+        lAlamat.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
+        lAlamat.setText("Alamat :    Sukorejo, Loceret, Nganjuk");
+        jPanel1.add(lAlamat);
+        lAlamat.setBounds(16, 128, 286, 17);
 
-        lNama3.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama3.setText("Alamat :    Sukorejo, Loceret, Nganjuk");
+        lLinkGithub.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
+        lLinkGithub.setText("Link Github : https://github.com/Biyabylla/firstCollabTeam2.git");
+        jPanel1.add(lLinkGithub);
+        lLinkGithub.setBounds(16, 282, 480, 17);
 
-        lNama4.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama4.setText("Link Github : https://github.com/Biyabylla/firstCollabTeam2.git");
+        lProdi.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
+        lProdi.setText("Program Studi : Sistem Informasi");
+        jPanel1.add(lProdi);
+        lProdi.setBounds(16, 157, 286, 17);
 
-        lNama5.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama5.setText("Program Studi : Sistem Informasi");
+        lKel.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
+        lKel.setText("Kelompok : II");
+        jPanel1.add(lKel);
+        lKel.setBounds(16, 203, 286, 17);
 
-        lNama6.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama6.setText("Kelompok : II");
+        lAngkatan.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
+        lAngkatan.setText("Angkatan : 2024");
+        jPanel1.add(lAngkatan);
+        lAngkatan.setBounds(16, 180, 286, 17);
 
-        lNama7.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama7.setText("Angkatan : 2024");
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/background.png"))); // NOI18N
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(0, 0, 520, 370);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(lNama2)
-                .addGap(180, 180, 180))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lNama4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lNama, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lNama1)
-                            .addComponent(lNama3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(lNama5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
-                            .addComponent(lNama7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
-                            .addComponent(lNama6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE))
-                        .addGap(18, 18, 18)
-                        .addComponent(lFoto, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(35, 35, 35))))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(lNama2)
-                .addGap(28, 28, 28)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lNama1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lNama)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lNama3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lNama5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lNama7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lNama6))
-                    .addComponent(lFoto, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lNama4)
-                .addContainerGap(75, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 520, 370);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -188,15 +152,16 @@ public class Nabila extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JInternalFrame jInternalFrame1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lAlamat;
+    private javax.swing.JLabel lAngkatan;
     private javax.swing.JLabel lFoto;
+    private javax.swing.JLabel lIdentitasDiri;
+    private javax.swing.JLabel lKel;
+    private javax.swing.JLabel lLinkGithub;
+    private javax.swing.JLabel lNIM;
     private javax.swing.JLabel lNama;
-    private javax.swing.JLabel lNama1;
-    private javax.swing.JLabel lNama2;
-    private javax.swing.JLabel lNama3;
-    private javax.swing.JLabel lNama4;
-    private javax.swing.JLabel lNama5;
-    private javax.swing.JLabel lNama6;
-    private javax.swing.JLabel lNama7;
+    private javax.swing.JLabel lProdi;
     // End of variables declaration//GEN-END:variables
 }
