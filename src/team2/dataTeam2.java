@@ -33,8 +33,8 @@ public class dataTeam2 extends javax.swing.JFrame {
         bAni = new javax.swing.JButton();
         bAngga = new javax.swing.JButton();
         lSem3 = new javax.swing.JLabel();
-        bAngga1 = new javax.swing.JButton();
-        bAngga2 = new javax.swing.JButton();
+        bAhid = new javax.swing.JButton();
+        bIlham = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -69,23 +69,24 @@ public class dataTeam2 extends javax.swing.JFrame {
         lSem3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         lSem3.setText("Semester III");
 
-        bAngga1.setBackground(new java.awt.Color(153, 204, 255));
-        bAngga1.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
-        bAngga1.setText("Angga Sanjaya");
-        bAngga1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        bAngga1.addActionListener(new java.awt.event.ActionListener() {
+        bAhid.setBackground(new java.awt.Color(153, 204, 255));
+        bAhid.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
+        bAhid.setText("Muhammad Armiya Ahid");
+        bAhid.setActionCommand("");
+        bAhid.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        bAhid.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bAngga1ActionPerformed(evt);
+                bAhidActionPerformed(evt);
             }
         });
 
-        bAngga2.setBackground(new java.awt.Color(153, 204, 255));
-        bAngga2.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
-        bAngga2.setText("Angga Sanjaya");
-        bAngga2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        bAngga2.addActionListener(new java.awt.event.ActionListener() {
+        bIlham.setBackground(new java.awt.Color(153, 204, 255));
+        bIlham.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
+        bIlham.setText("Muhammad Ilham Muzaqi");
+        bIlham.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        bIlham.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bAngga2ActionPerformed(evt);
+                bIlhamActionPerformed(evt);
             }
         });
 
@@ -105,8 +106,8 @@ public class dataTeam2 extends javax.swing.JFrame {
                     .addGroup(pLatarLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(pLatarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(bAngga2, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(bAngga1, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bIlham, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bAhid, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bAngga, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bAni, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bNabila, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -131,9 +132,9 @@ public class dataTeam2 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(bAngga, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(bAngga1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(bAhid, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(bAngga2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(bIlham, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(132, Short.MAX_VALUE))
         );
 
@@ -157,13 +158,13 @@ public class dataTeam2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_bAniActionPerformed
 
-    private void bAngga1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAngga1ActionPerformed
+    private void bAhidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAhidActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_bAngga1ActionPerformed
+    }//GEN-LAST:event_bAhidActionPerformed
 
-    private void bAngga2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAngga2ActionPerformed
+    private void bIlhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bIlhamActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_bAngga2ActionPerformed
+    }//GEN-LAST:event_bIlhamActionPerformed
 
     /**
      * @param args the command line arguments
@@ -201,10 +202,10 @@ public class dataTeam2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton bAhid;
     private javax.swing.JButton bAngga;
-    private javax.swing.JButton bAngga1;
-    private javax.swing.JButton bAngga2;
     private javax.swing.JButton bAni;
+    private javax.swing.JButton bIlham;
     private javax.swing.JButton bNabila;
     private javax.swing.JLabel lKel;
     private javax.swing.JLabel lSem3;

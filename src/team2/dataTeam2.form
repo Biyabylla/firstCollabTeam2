@@ -61,8 +61,8 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="bAngga2" min="-2" pref="253" max="-2" attributes="0"/>
-                              <Component id="bAngga1" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="bIlham" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="bAhid" min="-2" pref="253" max="-2" attributes="0"/>
                               <Component id="bAngga" min="-2" pref="253" max="-2" attributes="0"/>
                               <Component id="bAni" min="-2" pref="253" max="-2" attributes="0"/>
                               <Component id="bNabila" min="-2" pref="253" max="-2" attributes="0"/>
@@ -93,9 +93,9 @@
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="bAngga" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="bAngga1" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="bAhid" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="bAngga2" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="bIlham" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace pref="132" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -177,7 +177,7 @@
             <Property name="text" type="java.lang.String" value="Semester III"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="bAngga1">
+        <Component class="javax.swing.JButton" name="bAhid">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="cc" red="99" type="rgb"/>
@@ -185,7 +185,8 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Semibold" size="12" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Angga Sanjaya"/>
+            <Property name="text" type="java.lang.String" value="Muhammad Armiya Ahid"/>
+            <Property name="actionCommand" type="java.lang.String" value=""/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
                 <BevelBorder/>
@@ -193,10 +194,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAngga1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAhidActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="bAngga2">
+        <Component class="javax.swing.JButton" name="bIlham">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="cc" red="99" type="rgb"/>
@@ -204,7 +205,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Semibold" size="12" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Angga Sanjaya"/>
+            <Property name="text" type="java.lang.String" value="Muhammad Ilham Muzaqi"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
                 <BevelBorder/>
@@ -212,7 +213,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAngga2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bIlhamActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

@@ -28,15 +28,6 @@ public class Nabila extends javax.swing.JFrame {
 
         jInternalFrame1 = new javax.swing.JInternalFrame();
         jPanel1 = new javax.swing.JPanel();
-        lFoto = new javax.swing.JLabel();
-        lNIM = new javax.swing.JLabel();
-        lNama = new javax.swing.JLabel();
-        lIdentitasDiri = new javax.swing.JLabel();
-        lAlamat = new javax.swing.JLabel();
-        lLinkGithub = new javax.swing.JLabel();
-        lProdi = new javax.swing.JLabel();
-        lKel = new javax.swing.JLabel();
-        lAngkatan = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         jInternalFrame1.setVisible(true);
@@ -53,64 +44,26 @@ public class Nabila extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setMinimumSize(new java.awt.Dimension(515, 349));
+        jPanel1.setPreferredSize(new java.awt.Dimension(515, 349));
         jPanel1.setLayout(null);
 
-        lFoto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lFoto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/Nabila.png"))); // NOI18N
-        lFoto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        lFoto.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        jPanel1.add(lFoto);
-        lFoto.setBounds(320, 70, 160, 194);
-
-        lNIM.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNIM.setText("NIM      :    202457201055");
-        jPanel1.add(lNIM);
-        lNIM.setBounds(16, 99, 212, 17);
-
-        lNama.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lNama.setText("Nama   :    Nabila Putri Ardina");
-        jPanel1.add(lNama);
-        lNama.setBounds(16, 70, 220, 17);
-
-        lIdentitasDiri.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
-        lIdentitasDiri.setText("IDENTITAS DIRI");
-        jPanel1.add(lIdentitasDiri);
-        lIdentitasDiri.setBounds(185, 20, 170, 26);
-
-        lAlamat.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lAlamat.setText("Alamat :    Sukorejo, Loceret, Nganjuk");
-        jPanel1.add(lAlamat);
-        lAlamat.setBounds(16, 128, 286, 17);
-
-        lLinkGithub.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lLinkGithub.setText("Link Github : https://github.com/Biyabylla/firstCollabTeam2.git");
-        jPanel1.add(lLinkGithub);
-        lLinkGithub.setBounds(16, 282, 480, 17);
-
-        lProdi.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lProdi.setText("Program Studi : Sistem Informasi");
-        jPanel1.add(lProdi);
-        lProdi.setBounds(16, 157, 286, 17);
-
-        lKel.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lKel.setText("Kelompok : II");
-        jPanel1.add(lKel);
-        lKel.setBounds(16, 203, 286, 17);
-
-        lAngkatan.setFont(new java.awt.Font("Lucida Bright", 1, 14)); // NOI18N
-        lAngkatan.setText("Angkatan : 2024");
-        jPanel1.add(lAngkatan);
-        lAngkatan.setBounds(16, 180, 286, 17);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/background.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/team2/KARTU PENGENAL_Nabila Putri.png"))); // NOI18N
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 520, 370);
+        jLabel1.setBounds(0, -10, 570, 370);
 
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 520, 370);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 570, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -154,14 +107,5 @@ public class Nabila extends javax.swing.JFrame {
     private javax.swing.JInternalFrame jInternalFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel lAlamat;
-    private javax.swing.JLabel lAngkatan;
-    private javax.swing.JLabel lFoto;
-    private javax.swing.JLabel lIdentitasDiri;
-    private javax.swing.JLabel lKel;
-    private javax.swing.JLabel lLinkGithub;
-    private javax.swing.JLabel lNIM;
-    private javax.swing.JLabel lNama;
-    private javax.swing.JLabel lProdi;
     // End of variables declaration//GEN-END:variables
 }
