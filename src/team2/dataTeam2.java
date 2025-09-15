@@ -29,13 +29,12 @@ public class dataTeam2 extends javax.swing.JFrame {
         pLatar = new javax.swing.JPanel();
         lKel = new javax.swing.JLabel();
         lidentitasAnggota = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         bNabila = new javax.swing.JButton();
         bAni = new javax.swing.JButton();
         bAngga = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
         lSem3 = new javax.swing.JLabel();
+        bAngga1 = new javax.swing.JButton();
+        bAngga2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -46,8 +45,6 @@ public class dataTeam2 extends javax.swing.JFrame {
 
         lidentitasAnggota.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         lidentitasAnggota.setText("Identidas Anggota");
-
-        jButton1.setText("jButton1");
 
         bNabila.setBackground(new java.awt.Color(153, 204, 255));
         bNabila.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
@@ -69,12 +66,28 @@ public class dataTeam2 extends javax.swing.JFrame {
         bAngga.setText("Angga Sanjaya");
         bAngga.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jButton5.setText("jButton1");
-
-        jButton6.setText("jButton1");
-
         lSem3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         lSem3.setText("Semester III");
+
+        bAngga1.setBackground(new java.awt.Color(153, 204, 255));
+        bAngga1.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
+        bAngga1.setText("Angga Sanjaya");
+        bAngga1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        bAngga1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bAngga1ActionPerformed(evt);
+            }
+        });
+
+        bAngga2.setBackground(new java.awt.Color(153, 204, 255));
+        bAngga2.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
+        bAngga2.setText("Angga Sanjaya");
+        bAngga2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        bAngga2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bAngga2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout pLatarLayout = new javax.swing.GroupLayout(pLatar);
         pLatar.setLayout(pLatarLayout);
@@ -92,9 +105,8 @@ public class dataTeam2 extends javax.swing.JFrame {
                     .addGroup(pLatarLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(pLatarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bAngga2, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bAngga1, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bAngga, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bAni, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bNabila, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -119,12 +131,10 @@ public class dataTeam2 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(bAngga, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(bAngga1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addComponent(bAngga2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(132, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -146,6 +156,14 @@ public class dataTeam2 extends javax.swing.JFrame {
     private void bAniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAniActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_bAniActionPerformed
+
+    private void bAngga1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAngga1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bAngga1ActionPerformed
+
+    private void bAngga2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAngga2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bAngga2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -184,11 +202,10 @@ public class dataTeam2 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bAngga;
+    private javax.swing.JButton bAngga1;
+    private javax.swing.JButton bAngga2;
     private javax.swing.JButton bAni;
     private javax.swing.JButton bNabila;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JLabel lKel;
     private javax.swing.JLabel lSem3;
     private javax.swing.JLabel lidentitasAnggota;

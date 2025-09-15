@@ -61,9 +61,8 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jButton6" min="-2" pref="253" max="-2" attributes="0"/>
-                              <Component id="jButton1" min="-2" pref="253" max="-2" attributes="0"/>
-                              <Component id="jButton5" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="bAngga2" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="bAngga1" min="-2" pref="253" max="-2" attributes="0"/>
                               <Component id="bAngga" min="-2" pref="253" max="-2" attributes="0"/>
                               <Component id="bAni" min="-2" pref="253" max="-2" attributes="0"/>
                               <Component id="bNabila" min="-2" pref="253" max="-2" attributes="0"/>
@@ -94,12 +93,10 @@
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="bAngga" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jButton5" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="bAngga1" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" pref="42" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jButton6" min="-2" pref="42" max="-2" attributes="0"/>
-                  <EmptySpace pref="78" max="32767" attributes="0"/>
+                  <Component id="bAngga2" min="-2" pref="42" max="-2" attributes="0"/>
+                  <EmptySpace pref="132" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -119,11 +116,6 @@
               <Font name="Segoe UI Black" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Identidas Anggota"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jButton1"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="bNabila">
@@ -177,16 +169,6 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton5">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jButton1"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton6">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jButton1"/>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JLabel" name="lSem3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -194,6 +176,44 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Semester III"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bAngga1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="99" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Angga Sanjaya"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAngga1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bAngga2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="99" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Angga Sanjaya"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAngga2ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
