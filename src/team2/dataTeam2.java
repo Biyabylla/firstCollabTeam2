@@ -50,6 +50,11 @@ public class dataTeam2 extends javax.swing.JFrame {
         bNabila.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
         bNabila.setText("Nabila Putri Ardina");
         bNabila.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        bNabila.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bNabilaActionPerformed(evt);
+            }
+        });
 
         bAni.setBackground(new java.awt.Color(153, 204, 255));
         bAni.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
@@ -65,6 +70,11 @@ public class dataTeam2 extends javax.swing.JFrame {
         bAngga.setFont(new java.awt.Font("Segoe UI Semibold", 1, 12)); // NOI18N
         bAngga.setText("Angga Sanjaya");
         bAngga.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        bAngga.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bAnggaActionPerformed(evt);
+            }
+        });
 
         lSem3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         lSem3.setText("Semester III");
@@ -152,19 +162,28 @@ public class dataTeam2 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void bAniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAniActionPerformed
-        // TODO add your handling code here:
+        new Triani().setVisible(true);
     }//GEN-LAST:event_bAniActionPerformed
 
     private void bAhidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAhidActionPerformed
-        // TODO add your handling code here:
+        new Ahid().setVisible(true);
     }//GEN-LAST:event_bAhidActionPerformed
 
     private void bIlhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bIlhamActionPerformed
-        // TODO add your handling code here:
+        new Ilham().setVisible(true);
     }//GEN-LAST:event_bIlhamActionPerformed
+
+    private void bNabilaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bNabilaActionPerformed
+        new Nabila().setVisible(true);
+    }//GEN-LAST:event_bNabilaActionPerformed
+
+    private void bAnggaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAnggaActionPerformed
+        new Angga().setVisible(true);
+    }//GEN-LAST:event_bAnggaActionPerformed
 
     /**
      * @param args the command line arguments
